@@ -1,3 +1,9 @@
+:root {
+  --color-current: #1E8CC8;
+  --color-link-hover: #F8234A;
+}
+
 #intro {
   background-image: url(../img/cologne.jpg);
 }
+
