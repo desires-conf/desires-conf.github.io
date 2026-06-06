@@ -108,19 +108,6 @@ td.content {
   margin-bottom: 10px;
 }
 
-.section-header p {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  color: #9195a2;
-}
-
-.section-with-bg {
-  background-color: #f6f7fd;
-}
-
 /* Map
 --------------------------------*/
 iframe.map {
