@@ -107,15 +107,6 @@ td.content {
   margin-bottom: 10px;
 }
 
-/* Map
---------------------------------*/
-iframe.map {
-  width: 100%;
-  height: 300px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -157,6 +148,23 @@ iframe.map {
 #header #logo h1 a,
 #header #logo h1 a:hover {
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.gallery img {
+  height: 200px;
+  width: 200px;
+  flex-grow: 1;
+  padding: 1px;
+  object-fit: cover;
 }
 
 /*--------------------------------------------------------------
