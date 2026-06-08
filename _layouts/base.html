@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DESIRES {{ page.dir | replace: "/", "" }}{% if page.subtitle %}- {{ page.subtitle }}{% endif %}</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Favicons -->
+  <link href="/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Main Stylesheet File -->
+  <link href="/css/style.css" rel="stylesheet">
+{%- if page.dir != "/" -%}
+  <link href="css/desires-{{ page.dir | replace: "/", "" }}.css" rel="stylesheet">
+{%- endif -%}
+
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+<body>
+
+{{ content }}
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-logo"><a href="/"><img class="logo" src="/img/desires-logo.webp" alt="DESIRES"></a></div>
+        <div class="col">
+          <div><a href="mailto:desiresconference@gmail.com">Contact</a></div>
+          <div><a href="/">Conference series</a></div>
+          <div><a href="/legal.html">Imprint &amp; privacy</a></div>
+        </div>
+        <div class="col-12">
+          &copy; DESIRES 2027 ·
+          <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+          -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="/lib/jquery/jquery.min.js"></script>
+  <script src="/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

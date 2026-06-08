@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Editions
+--------------------------------------------------------------*/
+
+.editions .col {
+  width: 210px;
+  flex-basis: initial;
+  flex-grow: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.editions .col a {
+  color: #888;
+}
+.editions .col a:hover {
+  color: #AAA;
+}
+
+.editions .col img {
+  height: 70px;
+}
+

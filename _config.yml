@@ -1,0 +1,22 @@
+description: >- # this means to ignore newlines until "baseurl:"
+  DESIRES is the systems-oriented retreat-like conference for discussing visionary ideas in search and retrieval systems
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+liquid:
+  error_mode: strict
+
+exclude:
+  - README.md
+  - LICENSE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - src/
+
