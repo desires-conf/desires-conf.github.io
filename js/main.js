@@ -87,6 +87,9 @@ jQuery(document).ready(function( $ ) {
           $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
           $('#mobile-body-overly').fadeOut();
         }
+
+        history.pushState({}, "", (location + "").replace(/#.*/, "") + this.hash);
+
         return false;
       }
     }
