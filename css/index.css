@@ -1,23 +1,30 @@
+#intro {
+  background-image: url(../img/index-background.jpg);
+}
+
 /*--------------------------------------------------------------
 # Editions
 --------------------------------------------------------------*/
 
-.editions .col {
-  width: 210px;
-  flex-basis: initial;
-  flex-grow: 0;
+.editions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  justify-content: center;
+}
+
+.editions div {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.editions .col a {
+.editions a {
   color: #888;
 }
-.editions .col a:hover {
+.editions a:hover {
   color: #AAA;
 }
 
-.editions .col img {
+.editions img {
   height: 70px;
 }
 
