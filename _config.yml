@@ -20,3 +20,8 @@ exclude:
   - vendor/ruby/
   - src/
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
