@@ -491,6 +491,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# People
+--------------------------------------------------------------*/
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, calc((610px - 16px) / 2));
+  gap: 16px;
+  justify-content: start;
+}
+
+.people figure {
+  background: #e5e7f0;
+  display: flex;
+  flex-direction: row;
+}
+
+.people figure img {
+  width: 105px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.people figure figcaption {
+  padding: 16px;
+  height: 140px;
+}
+
+.people figure figcaption small {
+  line-height: 100%;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
