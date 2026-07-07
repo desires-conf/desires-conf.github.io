@@ -499,12 +499,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   grid-template-columns: repeat(auto-fit, calc((610px - 16px) / 2));
   gap: 16px;
   justify-content: start;
+  margin-bottom: 1rem;
 }
 
 .people figure {
   background: #e5e7f0;
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .people figure img {
