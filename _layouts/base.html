@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>DESIRES {{ page.dir | replace: "/", "" }}{% if page.subtitle %} – {{ page.subtitle }}{% endif %}</title>
+  <title>DESIRES{% if page.subtitle %}{% raw %} {% endraw %}{% endif %}{{ page.dir | replace: "/", "" }}{% if page.subtitle %} – {{ page.subtitle }}{% endif %}</title>
+  <meta property='og:title' content='DESIRES{% if page.subtitle %}{% raw %} {% endraw %}{% endif %}{{ page.dir | replace: "/", "" }}{% if page.subtitle %} – {{ page.subtitle }}{% endif %}'/>
+  <meta property='og:image' content='/img/desires-logo{% if page.subtitle %}-{% endif %}{{ page.dir | replace: "/", "" }}.webp'/>
+  <meta property='og:description' content='The conference for discussing visionary ideas in search and retrieval systems'/>
+  <meta property='og:site_name' content='DESIRES'/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <!-- Favicons -->
