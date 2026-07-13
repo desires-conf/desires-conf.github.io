@@ -78,6 +78,10 @@ td.content {
   max-height: 40px;
 }
 
+.pull-left {
+  float: left;
+}
+
 /* Sections Header
 --------------------------------*/
 
